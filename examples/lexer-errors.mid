@@ -1,0 +1,14 @@
+
+fn main() {
+    x := '\g'; //unknown escape secuence
+    x = 'ajdiawjwdai'; //multicharacter character constant
+
+    a := 1; b := 2;
+    if a | b {
+        __write__ "| is not a valid token";
+    }
+
+    c := . //'.' not part of a decimal literal;
+
+    @ //unexpected character
+}
